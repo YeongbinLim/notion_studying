@@ -60,7 +60,7 @@ def createPage(databaseId, headers, data):
         },
         },
     }
-    
+     
     data = json.dumps(newPageData)
     # print(str(uploadData))
 

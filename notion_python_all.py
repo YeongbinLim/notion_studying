@@ -25,7 +25,7 @@ def readDatabase(databaseId, headers):
 def createPage(databaseId, headers, data):
 
     createUrl = 'https://api.notion.com/v1/pages'
-
+ 
     newPageData = {
         "parent": { "database_id": databaseId },
         "properties": {

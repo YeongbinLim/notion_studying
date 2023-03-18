@@ -9,4 +9,4 @@ const notion = new Client({ auth: NOTION_KEY });
   const pageId = '67a3dddc022f4b219c4dfd2fb79b0bf4';
   const response = await notion.pages.retrieve({ page_id: pageId });
   console.log(response);
-})();
+})(); 

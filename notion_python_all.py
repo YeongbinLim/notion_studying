@@ -71,7 +71,7 @@ def createPage(databaseId, headers, data):
 
 def updatePage(padeId, headers):
     updateUrl = f"https://api.notion.com/v1/pages/{pageId}"
-
+ 
     updateData = {
         "properties": {
             "Value": {

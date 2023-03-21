@@ -79,7 +79,7 @@ def updatePage(padeId, headers):
                     {
                         "text": {
                             "content": "Pretty Good"
-                        }
+                        } 
                     }
                 ]
             }        

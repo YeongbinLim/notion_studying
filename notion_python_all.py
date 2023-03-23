@@ -83,7 +83,7 @@ def updatePage(padeId, headers):
                     }
                 ]
             }        
-        }
+        } 
     }
 
     data = json.dumps(updateData)
